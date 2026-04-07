@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — Charlaa</title>
+  <title>Gizlilik Politikası — Charlaa</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -14,7 +14,8 @@
       --green-dark: #166534;
       --green-light: #f0fdf4;
       --text: #111827;
-      --text-sec: #6B7280;
+      --text-sec: #4b5563;
+      --text-ter: #6B7280;
       --border: #E5E7EB;
     }
     body {
@@ -48,25 +49,53 @@
       padding: 64px 24px 96px;
     }
     h1 {
-      font-size: 40px;
+      font-size: 36px;
       font-weight: 800;
-      letter-spacing: -1.5px;
+      letter-spacing: -1px;
       margin-bottom: 8px;
     }
     .updated {
       font-size: 14px;
-      color: var(--text-sec);
-      margin-bottom: 48px;
+      color: var(--text-ter);
+      margin-bottom: 32px;
+    }
+    .intro-box {
+      background: var(--green-light);
+      border-left: 3px solid var(--green);
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-size: 15px;
+      color: #374151;
+      line-height: 1.7;
+      margin-bottom: 40px;
+    }
+    .section {
+      margin-bottom: 32px;
     }
     h2 {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 700;
-      color: var(--green-dark);
-      margin: 40px 0 12px;
+      color: var(--text);
+      margin-bottom: 10px;
     }
-    p { font-size: 15px; color: var(--text-sec); margin-bottom: 16px; }
-    ul { padding-left: 20px; margin-bottom: 16px; }
-    ul li { font-size: 15px; color: var(--text-sec); margin-bottom: 8px; }
+    p, .body-text {
+      font-size: 15px;
+      color: var(--text-sec);
+      white-space: pre-line;
+      line-height: 1.75;
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0 32px;
+    }
+    .footer-note {
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-ter);
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
     a { color: var(--green); text-decoration: none; }
     a:hover { text-decoration: underline; }
     footer {
@@ -86,82 +115,120 @@
   </nav>
 
   <div class="container">
-    <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: April 7, 2026</p>
+    <h1>Gizlilik Politikası</h1>
+    <p class="updated">Yürürlük Tarihi: 5 Nisan 2026</p>
 
-    <p>
-      Charlaa ("we", "our", or "us") is committed to protecting your privacy.
-      This Privacy Policy explains how we collect, use, and safeguard your information
-      when you use the Charlaa mobile application.
-    </p>
+    <div class="intro-box">
+      KEYMENTECH LLC olarak gizliliğinizi önemsiyoruz. Bu politika, Charla uygulaması aracılığıyla toplanan kişisel verilerinizin nasıl işlendiğini açıklamaktadır.
+    </div>
 
-    <h2>1. Information We Collect</h2>
-    <p>We collect the following types of information:</p>
-    <ul>
-      <li><strong>Account information:</strong> Phone number used for authentication.</li>
-      <li><strong>Profile information:</strong> Name, age, gender, photos, religious values, family values, education, profession, and other details you provide.</li>
-      <li><strong>Location data:</strong> Approximate location to show relevant matches nearby (only when you grant permission).</li>
-      <li><strong>Usage data:</strong> App interactions, likes, matches, and messages within the platform.</li>
-    </ul>
+    <div class="section">
+      <h2>1. Giriş</h2>
+      <p class="body-text">KEYMENTECH LLC ("biz", "bize" veya "bizim") olarak Charla mobil uygulamasını işletmekteyiz. Bu Gizlilik Politikası, kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı, ifşa ettiğimizi ve koruduğumuzu açıklamaktadır.</p>
+    </div>
 
-    <h2>2. How We Use Your Information</h2>
-    <ul>
-      <li>To create and manage your account.</li>
-      <li>To match you with compatible users based on your preferences and values.</li>
-      <li>To enable communication between matched users.</li>
-      <li>To improve app features and user experience.</li>
-      <li>To moderate content and maintain community safety.</li>
-      <li>To send important app-related notifications.</li>
-    </ul>
+    <div class="section">
+      <h2>2. Topladığımız Bilgiler</h2>
+      <p class="body-text">Siz Tarafından Sağlanan Bilgiler:
+• Ad, doğum tarihi, cinsiyet
+• E-posta adresi
+• Profil fotoğrafları
+• Memleket, boy, eğitim ve kariyer bilgileri
+• Dini değerler ve evlilik beklentileri
+• İlgi alanları ve tercihler
 
-    <h2>3. Information Sharing</h2>
-    <p>
-      We do not sell your personal data. We may share information with:
-    </p>
-    <ul>
-      <li><strong>Service providers:</strong> Third-party services (e.g., Supabase for database, Expo for push notifications) that help us operate the app under strict confidentiality.</li>
-      <li><strong>Legal requirements:</strong> When required by law or to protect the rights and safety of our users.</li>
-    </ul>
+Otomatik Olarak Toplanan Bilgiler:
+• Cihaz bilgileri (cihaz türü, işletim sistemi)
+• Kullanım verileri (kullanılan özellikler, geçirilen süre)
+• IP adresi ve yaklaşık konum</p>
+    </div>
 
-    <h2>4. Data Retention</h2>
-    <p>
-      We retain your data as long as your account is active. You may request account deletion at any time through the app settings. Upon deletion, your personal data is permanently removed from our systems within 30 days.
-    </p>
+    <div class="section">
+      <h2>3. Bilgilerinizi Nasıl Kullanıyoruz</h2>
+      <p class="body-text">• Hesabınızı oluşturmak ve yönetmek
+• Sizi uyumlu kullanıcılarla eşleştirmek
+• Deneyiminizi kişiselleştirmek
+• Uygulama hakkında sizinle iletişim kurmak
+• Hizmetlerimizi geliştirmek
+• Güvenliği sağlamak
+• Yasal yükümlülüklere uymak</p>
+    </div>
 
-    <h2>5. Security</h2>
-    <p>
-      We use industry-standard security measures including encrypted connections (HTTPS/TLS) and secure database storage to protect your data. However, no method of transmission over the internet is 100% secure.
-    </p>
+    <div class="section">
+      <h2>4. Bilgi Paylaşımı</h2>
+      <p class="body-text">Kişisel bilgilerinizi satmıyoruz. Bilgileri şu durumlarda paylaşabiliriz:
+• Profilinizin bir parçası olarak diğer kullanıcılarla (neyin görüneceğini siz kontrol edersiniz)
+• Uygulamanın işletilmesine yardımcı olan hizmet sağlayıcılarla (örn. veritabanı için Supabase)
+• Yasa veya hukuki süreç gerektirdiğinde
+• Kullanıcılarımızın haklarını ve güvenliğini korumak için</p>
+    </div>
 
-    <h2>6. Children's Privacy</h2>
-    <p>
-      Charlaa is not intended for users under the age of 18. We do not knowingly collect personal information from minors. If we become aware that a minor has provided us with personal data, we will delete it immediately.
-    </p>
+    <div class="section">
+      <h2>5. Veri Depolama ve Güvenlik</h2>
+      <p class="body-text">• Verileriniz Supabase tarafından sağlanan güvenli sunucularda depolanmaktadır.
+• Verilerinizi korumak için endüstri standardı güvenlik önlemleri uyguluyoruz.
+• Verilerinizi hesabınız aktif olduğu sürece veya hizmet sunmak için gerektiği kadar saklıyoruz.
+• Hesap silme işlemi üzerine verileriniz sistemlerimizden kalıcı ve derhal kaldırılır.</p>
+    </div>
 
-    <h2>7. Your Rights</h2>
-    <p>You have the right to:</p>
-    <ul>
-      <li>Access the personal data we hold about you.</li>
-      <li>Request correction of inaccurate data.</li>
-      <li>Request deletion of your account and data.</li>
-      <li>Withdraw consent for location access at any time via device settings.</li>
-    </ul>
+    <div class="section">
+      <h2>6. Haklarınız</h2>
+      <p class="body-text">Aşağıdaki haklara sahipsiniz:
+• Kişisel verilerinize erişim
+• Hatalı verilerin düzeltilmesi
+• Hesabınızın ve verilerinizin silinmesi
+• Pazarlama iletişimlerinden vazgeçme
+• Veri taşınabilirliği (verilerinizin bir kopyasını alma)
 
-    <h2>8. Changes to This Policy</h2>
-    <p>
-      We may update this Privacy Policy from time to time. We will notify you of significant changes through the app. Your continued use of Charlaa after changes constitutes acceptance of the updated policy.
-    </p>
+Türkiye'de ikamet ediyorsanız, KVKK kapsamında ek haklara sahipsiniz.</p>
+    </div>
 
-    <h2>9. Contact Us</h2>
-    <p>
-      If you have any questions about this Privacy Policy, please contact us at:<br />
-      <a href="mailto:charlamapp@gmail.com">charlamapp@gmail.com</a>
-    </p>
+    <div class="section">
+      <h2>7. KVKK (Türkiye)</h2>
+      <p class="body-text">Türkiye'deki kullanıcılar için, 6698 Sayılı Kişisel Verilerin Korunması Kanunu'na (KVKK) uyum sağlıyoruz. Veri sorumlusu KEYMENTECH LLC'dir. KVKK kapsamındaki haklarınızı kullanmak için <a href="mailto:charlamapp@gmail.com">charlamapp@gmail.com</a> adresinden bizimle iletişime geçebilirsiniz.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. GDPR (Avrupa Kullanıcıları)</h2>
+      <p class="body-text">Avrupa Ekonomik Alanı (AEA) kullanıcıları için, verilerinizi rızanıza ve Uygulamayı sunmaktaki meşru çıkarlarımıza dayanarak işliyoruz. Hesabınızı silerek istediğiniz zaman rızanızı geri çekebilirsiniz.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Çocukların Gizliliği</h2>
+      <p class="body-text">Uygulama, 18 yaşın altındaki bireyler için tasarlanmamıştır. Reşit olmayanların kişisel bilgilerini bilerek toplamıyoruz.</p>
+    </div>
+
+    <div class="section">
+      <h2>10. Üçüncü Taraf Hizmetleri</h2>
+      <p class="body-text">Uygulama aşağıdaki üçüncü taraf hizmetlerini kullanabilir:
+• Supabase (veritabanı ve kimlik doğrulama)
+• Google (kimlik doğrulama)
+• Apple (kimlik doğrulama)
+• Expo (uygulama altyapısı)
+
+Bu hizmetlerin kendi gizlilik politikaları mevcuttur.</p>
+    </div>
+
+    <div class="section">
+      <h2>11. Bu Politikadaki Değişiklikler</h2>
+      <p class="body-text">Bu Gizlilik Politikasını periyodik olarak güncelleyebiliriz. Önemli değişiklikler hakkında Uygulama veya e-posta aracılığıyla bildirimde bulunacağız.</p>
+    </div>
+
+    <div class="section">
+      <h2>12. İletişim</h2>
+      <p class="body-text">Gizlilikle ilgili sorularınız veya haklarınızı kullanmak için:
+
+KEYMENTECH LLC
+7901 4TH ST N 24768, ST PETERSBURG, FL 33702, USA
+E-posta: <a href="mailto:charlamapp@gmail.com">charlamapp@gmail.com</a></p>
+    </div>
+
+    <p class="footer-note">© 2026 KEYMENTECH LLC. Tüm hakları saklıdır.</p>
   </div>
 
   <footer>
-    <p><strong>Charlaa</strong> — Serious Muslim Matchmaking</p>
-    <p style="margin-top:8px;">© 2026 Charlaa. All rights reserved.</p>
+    <p><strong>Charlaa</strong> — Değerlere Dayalı Ciddi Eşleşme</p>
+    <p style="margin-top:8px;">© 2026 KEYMENTECH LLC. Tüm hakları saklıdır.</p>
   </footer>
 
 </body>
