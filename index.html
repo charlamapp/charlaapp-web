@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Charlaa — Serious Muslim Matchmaking</title>
-  <meta name="description" content="Charlaa is a halal, values-driven matchmaking app for Muslims seeking serious marriage. Built on faith, family, and trust." />
-  <meta property="og:title" content="Charlaa — Serious Muslim Matchmaking" />
-  <meta property="og:description" content="Find your match the halal way. Charlaa connects Muslims who are serious about marriage, guided by values and faith." />
+  <title>Charlaa — Serious Matchmaking Built on Values</title>
+  <meta name="description" content="Charlaa is a values-driven matchmaking app for people who are serious about marriage. Built on faith, family, and cultural integrity — not flirting." />
+  <meta property="og:title" content="Charlaa — Serious Matchmaking Built on Values" />
+  <meta property="og:description" content="Find your life partner the right way. Charlaa connects people who take marriage seriously, guided by religious and cultural values." />
   <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -130,7 +130,7 @@
     .hero p {
       font-size: 18px;
       color: var(--text-sec);
-      max-width: 520px;
+      max-width: 560px;
       margin: 0 auto 40px;
       line-height: 1.7;
     }
@@ -179,9 +179,44 @@
     .section-sub {
       font-size: 17px;
       color: var(--text-sec);
-      max-width: 540px;
+      max-width: 580px;
       line-height: 1.7;
     }
+
+    /* ── MANIFESTO ── */
+    #manifesto {
+      background: var(--green-dark);
+      color: #fff;
+      text-align: center;
+    }
+
+    #manifesto .section-label { color: #86efac; }
+
+    #manifesto .section-title { color: #fff; }
+
+    #manifesto .section-sub {
+      color: rgba(255,255,255,0.75);
+      margin: 0 auto;
+    }
+
+    .manifesto-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 56px;
+      text-align: left;
+    }
+
+    .manifesto-card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 20px;
+      padding: 28px 24px;
+    }
+
+    .manifesto-card .icon { font-size: 32px; margin-bottom: 16px; display: block; }
+    .manifesto-card h3 { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .manifesto-card p { font-size: 14px; color: rgba(255,255,255,0.65); line-height: 1.6; }
 
     /* ── FEATURES ── */
     #features { background: var(--white); }
@@ -327,6 +362,7 @@
   <nav>
     <span class="nav-logo">Charlaa</span>
     <ul class="nav-links">
+      <li><a href="#manifesto">Our Stance</a></li>
       <li><a href="#features">Features</a></li>
       <li><a href="#values">Values</a></li>
       <li><a href="#support">Support</a></li>
@@ -337,12 +373,12 @@
   <section class="hero">
     <div>
       <div class="hero-badge">
-        ☪️ Halal &amp; Values-Driven
+        🤝 No Flirting. Just Commitment.
       </div>
-      <h1>Find Your Match<br /><span>The Halal Way</span></h1>
+      <h1>Marriage, Not Dating.<br /><span>The Way It Should Be.</span></h1>
       <p>
-        Charlaa connects Muslims who are serious about marriage —
-        built on faith, family, and shared values.
+        Charlaa is for people who value faith, family, and cultural integrity —
+        and are ready for a serious, committed marriage. No games, no casual encounters.
       </p>
       <a href="https://apps.apple.com/app/charlaa" class="hero-cta">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
@@ -351,43 +387,77 @@
     </div>
   </section>
 
+  <!-- MANIFESTO -->
+  <section id="manifesto">
+    <div class="container">
+      <p class="section-label">Our Stance</p>
+      <h2 class="section-title">We Built Charlaa Because<br />Dating Apps Got It Wrong</h2>
+      <p class="section-sub">
+        Most apps are built around swiping, flirting, and casual connections. We believe that is disrespectful to people who hold their values close. Charlaa was built as an alternative — for those who see marriage as a sacred commitment, not a game.
+      </p>
+
+      <div class="manifesto-cards">
+        <div class="manifesto-card">
+          <span class="icon">🚫</span>
+          <h3>No Flirting Culture</h3>
+          <p>Charlaa has zero tolerance for casual, disrespectful, or flirtatious behavior. Every interaction is expected to be purposeful and respectful.</p>
+        </div>
+        <div class="manifesto-card">
+          <span class="icon">🕌</span>
+          <h3>Rooted in Religious Values</h3>
+          <p>Whether you are Muslim or belong to another faith tradition, Charlaa respects and centers religious values as the foundation of a strong marriage.</p>
+        </div>
+        <div class="manifesto-card">
+          <span class="icon">🌍</span>
+          <h3>Honoring Cultural Identity</h3>
+          <p>We believe cultural roots and traditions are a strength. Charlaa helps you find someone who shares and respects your background.</p>
+        </div>
+        <div class="manifesto-card">
+          <span class="icon">💍</span>
+          <h3>Marriage is the Goal</h3>
+          <p>Every profile on Charlaa is created with one clear intention — finding a life partner for a serious, committed marriage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- FEATURES -->
   <section id="features">
     <div class="container">
-      <p class="section-label">Why Charlaa</p>
-      <h2 class="section-title">Built for Serious Muslims</h2>
-      <p class="section-sub">Every feature is designed with Islamic values at the core — no swipe culture, no casual browsing.</p>
+      <p class="section-label">How It Works</p>
+      <h2 class="section-title">Designed for Serious People</h2>
+      <p class="section-sub">Every feature is built to support meaningful, values-aligned connections — not endless swiping.</p>
 
       <div class="features-grid">
         <div class="feature-card">
-          <span class="feature-icon">🕌</span>
-          <h3>Faith-First Profiles</h3>
-          <p>Share your religious values, prayer habits, and Islamic lifestyle preferences upfront — so you find someone truly compatible.</p>
+          <span class="feature-icon">📋</span>
+          <h3>Values-Based Profiles</h3>
+          <p>Share your religious beliefs, cultural background, family expectations, and life goals — so matches are based on what truly matters.</p>
         </div>
         <div class="feature-card">
           <span class="feature-icon">👨‍👩‍👧</span>
           <h3>Family-Oriented Matching</h3>
-          <p>We match based on family values, marriage expectations, and life goals — not just photos.</p>
+          <p>We match based on marriage expectations, family values, and long-term compatibility — not just appearance.</p>
         </div>
         <div class="feature-card">
           <span class="feature-icon">🛡️</span>
-          <h3>Safe & Verified</h3>
-          <p>Profile verification, moderation, and safety tools keep the community trustworthy and respectful.</p>
+          <h3>Safe & Moderated</h3>
+          <p>Profile verification, active moderation, and safety tools keep the community respectful and trustworthy.</p>
         </div>
         <div class="feature-card">
           <span class="feature-icon">💬</span>
-          <h3>Meaningful Conversations</h3>
-          <p>Chat only with your matches. Keep interactions purposeful and aligned with your intentions.</p>
-        </div>
-        <div class="feature-card">
-          <span class="feature-icon">🌍</span>
-          <h3>Global Muslim Community</h3>
-          <p>Connect with Muslims from all backgrounds, ethnicities, and countries who share your commitment to halal marriage.</p>
+          <h3>Purposeful Conversations</h3>
+          <p>Chat only with your mutual matches. Every conversation is meant to move toward a real decision, not casual small talk.</p>
         </div>
         <div class="feature-card">
           <span class="feature-icon">🔒</span>
-          <h3>Privacy Controlled</h3>
-          <p>You control who sees your profile. Your privacy and dignity are always protected.</p>
+          <h3>Privacy First</h3>
+          <p>You control your visibility. Your personal information and photos are only shared with people you choose.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">🌐</span>
+          <h3>Open to All Believers</h3>
+          <p>Charlaa welcomes people of faith from all backgrounds who share a commitment to values, integrity, and serious marriage.</p>
         </div>
       </div>
     </div>
@@ -396,30 +466,34 @@
   <!-- VALUES -->
   <section id="values">
     <div class="container">
-      <p class="section-label">Our Foundation</p>
-      <h2 class="section-title">Grounded in What Matters</h2>
-      <p class="section-sub">Charlaa was built on the belief that a successful Muslim marriage starts with shared values — not algorithms.</p>
+      <p class="section-label">What We Stand For</p>
+      <h2 class="section-title">Built on What Lasts</h2>
+      <p class="section-sub">Trends come and go. Charlaa is built on timeless principles that have always been at the heart of strong families.</p>
 
       <div class="values-grid">
         <div class="value-pill">
-          <span>☪️</span>
-          <h4>Islamic Values</h4>
+          <span>🙏</span>
+          <h4>Faith & Belief</h4>
         </div>
         <div class="value-pill">
           <span>💍</span>
           <h4>Serious Marriage</h4>
         </div>
         <div class="value-pill">
+          <span>🏛️</span>
+          <h4>Cultural Integrity</h4>
+        </div>
+        <div class="value-pill">
           <span>🤝</span>
           <h4>Mutual Respect</h4>
         </div>
         <div class="value-pill">
-          <span>🕊️</span>
-          <h4>Halal Interactions</h4>
-        </div>
-        <div class="value-pill">
           <span>🏡</span>
           <h4>Family First</h4>
+        </div>
+        <div class="value-pill">
+          <span>🚫</span>
+          <h4>No Flirting</h4>
         </div>
       </div>
     </div>
@@ -435,7 +509,7 @@
       <div class="support-box">
         <div>
           <h3>Contact Support</h3>
-          <p>Reach out to us any time. We typically respond within 24–48 hours, inshallah.</p>
+          <p>Reach out to us any time. We typically respond within 24–48 hours.</p>
         </div>
         <a href="mailto:charlamapp@gmail.com" class="support-email">
           ✉️ charlamapp@gmail.com
@@ -447,11 +521,13 @@
   <!-- FOOTER -->
   <footer>
     <div class="footer-links">
+      <a href="#manifesto">Our Stance</a>
       <a href="#features">Features</a>
       <a href="#values">Values</a>
       <a href="#support">Support</a>
+      <a href="/privacy.html">Privacy Policy</a>
     </div>
-    <p><strong>Charlaa</strong> — Serious Muslim Matchmaking</p>
+    <p><strong>Charlaa</strong> — Serious Matchmaking Built on Values</p>
     <p style="margin-top:8px;">© 2026 Charlaa. All rights reserved.</p>
   </footer>
 
